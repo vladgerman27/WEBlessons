@@ -1,0 +1,15 @@
+.button {
+    width: 300px;
+    height: 6vh;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.buttonOn {
+    background-color: #545454;
+}
+
+.buttonOff {
+    background-color: #c4c71b;
+}

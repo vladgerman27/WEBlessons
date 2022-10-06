@@ -1,30 +1,36 @@
 import './App.css';
+import Welcome from './components/Welcome';
+import Clock from './components/Clock';
+import Toggle from './components/Toggle';
+import LoginControl from './components/Greeting';
+import NumberList from './components/Numbers';
+import NameForm from './components/Forms';
+import Calculator from './components/Calculator';
 
 function App() {
-  function formatName(user) {
-    return user.firstName + ' ' + user.lastName;
-  }
-  
-  const user = {
-    firstName: 'Vlad',
-    lastName: 'Vodopad'
-  };
+    const formatName = (user) => {
+        return user.firstName + ' ' + user.lastName;
+    };
 
-  return (
-    <div >
-      <h1>
-      Hello, {formatName(user)}!
-    </h1>
-    <Welcome name="Алиса" />
-      <Welcome name="Базилио" />
-      <Welcome name="Буратино" />
-    </div>
-    
-  );
-}
+    const user = {
+        firstName: 'Vlad',
+        lastName: 'Vodopad',
+    };
 
-function Welcome(props) {
-  return <h1>Привет, {props.name}</h1>;
+    const numbers = [1, 2, 3, 4, 5];
+
+
+    return (
+        <div className="App-header">
+            <Welcome name={formatName(user)} />
+            <Clock />
+            <Toggle />
+            <LoginControl />
+            <NumberList numbers={numbers} />
+            <NameForm />
+            <Calculator />
+        </div>
+    );
 }
 
 export default App;
