@@ -1,0 +1,113 @@
+body .Features {
+    background-color: #222222; 
+}
+
+.Features {
+    width: 100%;
+    background-color: #222222;
+    padding-top: 100px; 
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discribtion {
+    width: 495px;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 32px;
+}
+
+.blocks {
+    width: 1168px;
+    display: grid;
+    grid-template-columns: 395px 395px 395px;
+    /* flex-direction: row; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.block {
+    width: 379px;
+    height: 490px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 16px;
+}
+
+.phone {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.icon {
+    position: relative;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    bottom: 34px;
+    left: 157px;
+}
+
+.blockInfo {
+    width: 100%;
+    height: 246px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.blockTitle {
+    width: 177px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockDis {
+    width: 286px;
+    margin-top: 11px;
+    font-size: 15px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    width: auto;
+    height: 156px;
+    background-color: #FF5437;
+    display: flex;
+    padding: 80px;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inf {
+    display: block;
+    margin-left: 190px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.infoNum {
+    font-size: 96px;
+}
+
+.infoTxt {
+    font-size: 14px;
+    margin-top: 30px;
+}

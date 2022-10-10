@@ -1,0 +1,25 @@
+.Contacts {
+    padding: 100px;
+    font-size: 16px;
+    color: #B1B1B1;
+}
+
+.contacts-logo, .messengers, .contacts-info {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contacts-logo {
+    margin-left: 605px;
+    margin-bottom: 26px;
+}
+
+.messenger {
+    margin-left: 20px;
+    margin-bottom: 26px;
+}
+
+span {
+    font-weight: 400;
+}

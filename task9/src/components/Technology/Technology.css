@@ -1,0 +1,27 @@
+.Technology {
+    display: flex;
+    padding-top: 100px;
+}
+
+.technology-infos {
+    display: block;
+    margin-top: 77px;
+    margin-left: 214px;
+}
+
+.technology-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.technology-title-info {
+    width: 409px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.technology-info {
+    width: 355px;
+    font-size: 16px;
+}

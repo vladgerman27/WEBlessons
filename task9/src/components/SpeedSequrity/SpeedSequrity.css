@@ -1,0 +1,29 @@
+.SpeedSequrity {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 236px;
+    background-color: #F2F2F2;
+}
+
+.SpeedSequrity-infos {
+    display: block;
+    margin-top: 77px;
+    margin-left: 194px;
+}
+
+.SpeedSequrity-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.SpeedSequrity-title-info {
+    width: 380px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.SpeedSequrity-info {
+    width: 355px;
+    font-size: 16px;
+}

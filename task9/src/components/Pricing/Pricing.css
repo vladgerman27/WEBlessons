@@ -1,0 +1,127 @@
+.Pricing {
+    padding-top: 100px;
+}
+
+.pricing-title, .pricing-title-info, .pricing-info, .price-images {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.pricing-title-info {
+    width: 409px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.pricing-info {
+    width: 520px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.price-blocks {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.price-block {
+    display: block;
+    height: 338px;
+    width: 379px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    text-align: center;
+    margin-left: 16px;
+    padding-top: 49px;
+}
+
+.pricing-block-title {
+    font-size: 18px;
+}
+
+.price-cost {
+    font-size: 105px;
+    margin-top: 11px;
+}
+
+.price-btn {
+    width: 129px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#price-block1 {
+    color: #0278ED;
+}
+
+#price-block2 {
+    color: #FF5437;
+}
+
+#price-block3 {
+    color: #FF9209;
+}
+
+.price-status {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 65px;
+    color: black;
+}
+
+
+
+#price-block1 button {
+    background-color: #0278ED;
+    color: white;
+}
+
+#price-block1 button:hover {
+    background-color: #0050a1;
+}
+
+#price-block1 button:active {
+    background-color: #003870;
+}
+
+
+
+#price-block2 button {
+    background-color: #FF5437;
+    color: white;
+}
+
+#price-block2 button:hover {
+    background-color: #ba3f29;
+}
+
+#price-block2 button:active {
+    background-color: #8a3121;
+}
+
+
+
+#price-block3 button {
+    background-color: #FF9209;
+    color: white;
+}
+
+#price-block3 button:hover {
+    background-color: #ab6209;
+}
+
+#price-block3 button:active {
+    background-color: #794607;
+}

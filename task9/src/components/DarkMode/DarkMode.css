@@ -1,0 +1,32 @@
+.DarkMode {
+    padding-top: 100px;
+    background-color: #222222;
+    color: white;
+}
+
+.darkmode-title, .darkmode-title-info, .darkmode-info, .darkmode-phone {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.darkmode-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.darkmode-title-info {
+    width: 409px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.darkmode-info {
+    width: 578px;
+    font-size: 16px;
+}
+
+.darkmode-phone {
+    margin-left: 455px;
+}

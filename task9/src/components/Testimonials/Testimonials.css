@@ -1,0 +1,70 @@
+.Testimonials {
+    padding-top: 100px;
+    background-color: #E5E5E5;
+}
+
+.testimonials-title, .testimonials-title-info, .testimonials-info {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.testimonials-title-info {
+    width: 409px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.testimonials-info {
+    width: 578px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.darkmode-phone {
+    margin-left: 455px;
+}
+
+.comments {
+    display: flex;
+    margin-left: 55px;
+    margin-top: 23px;
+    padding-bottom: 100px;
+}
+
+.comment-card {
+    width: 379px;
+    height: 135px;
+    border-radius: 25px;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    background-color: white;
+    padding: 30px;
+    margin: 16px;
+}
+
+.comment {
+    width: 274px;
+}
+
+.profile {
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile-info {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.profile-job {
+    margin-top: 5px;
+    font-size: 14px;
+}

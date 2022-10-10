@@ -1,0 +1,95 @@
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .header {
+    margin: 25px;
+    display: flex;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 40px;
+    margin-left: 127px;
+  }
+  
+  .nav-links {
+    margin-left: 433px;
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-top: 8px;
+    margin-left: 32px;
+    color: #666666;
+  }
+  
+  .nav-link:hover {
+    color: #333333;
+  }
+  
+  .nav-link:active {
+    color: #000000;
+  }
+  
+  .first-btn {
+    width: 172px;
+    height: 40px;
+    margin-left: 26px;
+    background-color: #222222;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .first-btn:hover {
+    color: rgb(170, 169, 169);
+  }
+  
+  .first-btn:active {
+    color: rgb(113, 113, 113);
+  }
+  
+  .first-page {
+    padding-top: 100px;
+    padding-left: 214px;
+    display: flex;
+  }
+  
+  .greeting {
+    margin-top: 135px;
+    display: block;
+  }
+  
+  .title {
+    width: 400px;
+    font-size: 54px;
+    margin-top: 11px;
+  }
+  
+  .discribtion {
+    width: 345px;
+    font-size: 16px;
+    margin-top: 18px;
+  }
+  
+  .info-btn {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .info-btn button {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  
+  .IMAGE {
+    margin-left: 315px;
+  }

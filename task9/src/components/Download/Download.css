@@ -1,0 +1,33 @@
+.Download {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.download-title, .download-title-info, .download-info {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.download-title-info {
+    width: 409px;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.download-info {
+    width: 578px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.download-btn {
+    margin-top: 26px;
+    margin-left: 670px;
+}
