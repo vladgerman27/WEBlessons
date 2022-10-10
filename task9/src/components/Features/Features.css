@@ -75,6 +75,34 @@ body .Features {
     margin-right: auto;
 }
 
+
+
+#title1 {
+    color: #0278ED;
+}
+
+#title2 {
+    color: #FF5437;
+}
+
+#title3 {
+    color: #FF9209;
+}
+
+#title4 {
+    color: #E738CE;
+}
+
+#title5 {
+    color: #00C6DF;
+}
+
+#title6 {
+    color: #B25DF8;
+}
+
+
+
 .blockDis {
     width: 286px;
     margin-top: 11px;

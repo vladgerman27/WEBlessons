@@ -6,6 +6,7 @@ let blocksInfo = [
     id: 1,
     phone: require('../../img/phone1.png'),
     icon: require('../../img/icon1.png'),
+    idTitle: 'title1',
     blockTitle: 'Calendar view',
     blockDis: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.'
   },
@@ -13,6 +14,7 @@ let blocksInfo = [
     id: 2,
     phone: require('../../img/phone2.png'),
     icon: require('../../img/icon2.png'),
+    idTitle: 'title2',
     blockTitle: 'Lists',
     blockDis: 'Dolor sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.'
   },
@@ -20,6 +22,7 @@ let blocksInfo = [
     id: 3,
     phone: require('../../img/phone1.png'),
     icon: require('../../img/icon3.png'),
+    idTitle: 'title3',
     blockTitle: 'Varied type',
     blockDis: 'Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue.'
   },
@@ -27,6 +30,7 @@ let blocksInfo = [
     id: 4,
     phone: require('../../img/phone3.png'),
     icon: require('../../img/icon4.png'),
+    idTitle: 'title4',
     blockTitle: 'Split-screen',
     blockDis: 'Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus.'
   },
@@ -34,6 +38,7 @@ let blocksInfo = [
     id: 5,
     phone: require('../../img/phone1.png'),
     icon: require('../../img/icon5.png'),
+    idTitle: 'title5',
     blockTitle: 'Uploads',
     blockDis: 'Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.'
   },
@@ -41,6 +46,7 @@ let blocksInfo = [
     id: 6,
     phone: require('../../img/phone4.png'),
     icon: require('../../img/icon6.png'),
+    idTitle: 'title6',
     blockTitle: 'Focus mode',
     blockDis: 'Lorem sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.'
   },
@@ -55,7 +61,7 @@ export function Features() {
       <img src={block.phone} className='phone' />
       <div className='blockInfo'>
         <img src={block.icon} className='icon' />
-        <nav className='blockTitle'>{block.blockTitle}</nav>
+        <nav className='blockTitle' id={block.idTitle}>{block.blockTitle}</nav>
         <nav className='blockDis'>{block.blockDis}</nav>
       </div>
     </div>
